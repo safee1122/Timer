@@ -1,0 +1,18 @@
+.contact-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.v5 {
+  position: absolute;
+  left: 83.06%;
+  top: 215px;
+  bottom: 6%;
+  z-index: -999;
+}
+.v6 {
+  position: absolute;
+}

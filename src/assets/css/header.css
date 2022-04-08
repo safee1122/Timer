@@ -1,0 +1,63 @@
+.wrapper {
+  position: relative;
+}
+
+.logoContainer {
+  width: 151px;
+  height: 38px;
+  position: absolute;
+  left: 16.34%;
+  right: 82.9%;
+  top: 0.6%;
+  bottom: 99.21%;
+  padding-top: 36px;
+}
+.headerContent {
+  position: relative;
+}
+
+.headerContent h1 {
+  text-align: center;
+  color: var(--color-heading-text);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 115%;
+  margin: 0;
+  padding-top: 156px;
+}
+.headerContent p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--color-para-text);
+  padding: 24px 0 40px 0;
+}
+.v1 {
+  background: url(../images/Vector.svg);
+  background-repeat: no-repeat;
+  width: 101.91px;
+  height: 76px;
+  position: absolute;
+  left: 0;
+  top: 290px;
+}
+.v2 {
+  background: url(../images/Vector2.svg);
+  background-repeat: no-repeat;
+  width: 82px;
+  height: 129px;
+  position: absolute;
+  right: 0;
+  top: 609px;
+}
+
+.headerContent .vid {
+  position: relative;
+  margin: 0 320px;
+  padding: 40px 0 234px 0;
+}

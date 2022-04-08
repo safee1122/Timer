@@ -1,0 +1,17 @@
+button {
+  width: 323px;
+  height: 56px;
+  background-color: var(--color-button);
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  margin: 33px 0 100px 0;
+  border-radius: 4px;
+  padding: 16px 40px;
+}

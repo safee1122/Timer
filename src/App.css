@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../public/fonts/Roboto-Bold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../public/fonts/Roboto-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboot";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../public/fonts/Roboto-Medium.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../src//assets/fonts/Inter-SemiBold.ttf") format("ttf");
+}
+:root {
+  --color-heading-text: #2a2a2a;
+  --color-para-text: #747474;
+  --color-button: #0264e1;
+  --color-footer-b: #072336;
+  --color-background: #f9fafb;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* inherits the browser's font properties: font-size 16px */
+  font: inherit;
+
+  /*  specifies the height of line boxes within the element. */
+  line-height: 1;
+  border-radius: 0;
+  /* no outline around anything */
+  outline: none;
+  /* inherit the color value of the parent */
+  color: inherit;
+}

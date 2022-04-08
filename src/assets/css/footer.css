@@ -1,0 +1,19 @@
+.footer {
+  width: auto;
+  height: 178px;
+  background-color: var(--color-footer-b);
+}
+.footer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+  text-align: center;
+  color: #d1d1e1;
+  padding-top: 48px;
+}
+.footer p:last-of-type {
+  padding: 48px 0 16px 0;
+}
