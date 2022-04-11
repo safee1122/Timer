@@ -6,6 +6,8 @@ import Button from "./button";
 import { connect } from "react-redux";
 import { setStartTimer } from "../features/counter/reducer";
 import { store } from "../app/store";
+import v7 from "../assets/images/Vector7.png";
+import v8 from "../assets/images/Vector8.png";
 function Timer() {
   const dispatch = useDispatch();
   const days = useSelector((state) => state.timer.timerDays);
@@ -63,6 +65,9 @@ function Timer() {
   return (
     <div className="counter">
       <h1>Hurry, your invitation expires soon!</h1>
+      <div className="v7">
+        <img src={v7}></img>
+      </div>
       <p>
         Blocksight registration will close onBlocksight registration will close
         on<br></br>
@@ -70,12 +75,17 @@ function Timer() {
           Wednesday, April 6th @ 11:59 Central Time.
         </span>
       </p>
-      <CountDown
-        timerDays={days}
-        timerHours={hours}
-        timerMinutes={minutes}
-        timerSeconds={seconds}
-      />
+      <div className="v8">
+        <img src={v8} />
+      </div>
+      <span>
+        <CountDown
+          timerDays={days}
+          timerHours={hours}
+          timerMinutes={minutes}
+          timerSeconds={seconds}
+        />
+      </span>
       <p>
         No one will be admitted after registration closes. When it opens
         <br />

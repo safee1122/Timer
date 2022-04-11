@@ -61,3 +61,16 @@
   margin: 0 320px;
   padding: 40px 0 234px 0;
 }
+.vid img {
+  position: absolute;
+  width: 277px;
+  height: 256px;
+}
+.vid img:last-of-type {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.vid .wrapper {
+  position: relative;
+}

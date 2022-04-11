@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/css/countdown.css";
-
+import v7 from "../assets/images/Vector7.png";
+import v8 from "../assets/images/Vector8.png";
 function CountDown({ timerDays, timerHours, timerMinutes, timerSeconds }) {
   return (
     <div className="count-container">

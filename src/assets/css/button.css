@@ -1,4 +1,4 @@
-button {
+.generalButton {
   width: 323px;
   height: 56px;
   background-color: var(--color-button);

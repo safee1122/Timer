@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/css/faq.css";
+import arrow from "../assets/images/arrow.png";
 
 function Faq() {
   return (
@@ -7,12 +8,21 @@ function Faq() {
       <h1>faq</h1>
       <div className="faqs">
         <h2>What chains do you support?</h2>
+        <button>
+          <img src={arrow} alt="" />
+        </button>
       </div>
       <div className="faqs">
         <h2>Can I pay in crypto?</h2>
+        <button>
+          <img src={arrow} alt="" />
+        </button>
       </div>
       <div className="faqs">
         <h2>Will You Raise the Price?</h2>
+        <button>
+          <img src={arrow} alt="" />
+        </button>
       </div>
       <div className="v3"></div>
       <div className="v4"></div>

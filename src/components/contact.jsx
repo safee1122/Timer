@@ -19,8 +19,8 @@ function Contact() {
         </p>
         <Button name="Sign Up Now" />
       </div>
-      <div>
-        <img src={vector6} className="v6" />
+      <div className="v6">
+        <img src={vector6} />
       </div>
     </div>
   );

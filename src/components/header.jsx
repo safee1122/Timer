@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/logo.svg";
 import "../assets/css/header.css";
+import rectangle from "../assets/images/Rectangle.png";
 
 function Header() {
   return (
@@ -16,15 +17,19 @@ function Header() {
           See how with my brand new blockchain analytics platform, Blocksight.
         </p>
         <div className="vid">
-          <iframe
-            width="700px"
-            height="500px"
-            src="https://www.youtube.com/embed/TWQn896YyHs"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+          <span className="wrapper">
+            <img src={rectangle} alt="" />
+            <img src={rectangle} alt="" />
+            <iframe
+              width="700px"
+              height="500px"
+              src="https://www.youtube.com/embed/TWQn896YyHs"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </span>
         </div>
         <div className="v1"></div>
         <div className="v2"></div>

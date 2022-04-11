@@ -1,18 +1,24 @@
 .contact-container {
+  width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
+.faq-box {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
 .v5 {
   position: absolute;
-  left: 83.06%;
-  top: 215px;
-  bottom: 6%;
-  z-index: -999;
+  z-index: -1;
+  right: 90px;
 }
 .v6 {
   position: absolute;
+  z-index: -1;
+  left: 90px;
+  top: 350px;
 }

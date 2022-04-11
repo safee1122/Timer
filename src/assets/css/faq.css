@@ -24,6 +24,7 @@
     0px 0.500862px 3.63125px rgba(11, 18, 23, 0.02);
   border-radius: 3px;
   margin: 0 0 16px 0;
+  position: relative;
 }
 .faqs h2 {
   padding: 24px 0 24px 34px;
@@ -78,7 +79,7 @@
   height: 152px;
   position: absolute;
   left: 94.5%;
-  top: 0;
+  top: 235px;
 }
 .v4 {
   background-image: url(../images/Vector4.png);
@@ -89,6 +90,12 @@
   position: absolute;
   left: -0.24%;
   right: 91.71%;
-  top: 67.19%;
+  top: 75.19%;
   bottom: 10.04%;
+}
+.faq button {
+  background: white;
+  position: absolute;
+  top: 35px;
+  right: 46px;
 }
